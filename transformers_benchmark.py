@@ -27,8 +27,6 @@ for prompt in prompts:
     print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 eval_time = time.time() - start_time
 
-print(f"device type: {args.device}")
-
 print(f"total duration: {eval_time + load_time:.2f} seconds")
 
 print(f"load duration: {load_time:.2f} seconds")
