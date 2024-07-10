@@ -12,7 +12,7 @@ load_time = time.time() - start_time
 # Define a list of prompts for benchmarking
 prompts = [
     "Generate a short poem about a skeleton",
-    "Generate a description of the company Qualtech Systems Inc",
+    "Generate a description of the company Microsoft",
     "Generate python code for finding the nth fibonacci number"
 ]
 
